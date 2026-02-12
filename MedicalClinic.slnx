@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MedicalClinic.Shared/MedicalClinic.Shared.csproj" />
+  <Project Path="MedicalClinic.Test/MedicalClinic.Test.csproj" Id="5ca514b7-32cd-4107-ac6c-563fd7230395" />
+  <Project Path="MedicalClinic/MedicalClinic.Client/MedicalClinic.Client.csproj" />
+  <Project Path="MedicalClinic/MedicalClinic/MedicalClinic.csproj" />
+</Solution>

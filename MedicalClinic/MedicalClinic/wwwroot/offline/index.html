@@ -1,0 +1,78 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedicalClinic - Offline</title>
+    <link rel="stylesheet" href="/offline/styles.css" />
+    <link rel="icon" type="image/png" href="/offline/favicon.png" />
+</head>
+<body class="flex min-h-screen flex-col">
+    <header>
+        <!--TODO: GET BETTER COLORS -->
+        <nav class=" grid grid-cols-4 bg-amber-400 p-3">
+            <div class="ml-2 flex items-center">
+                <a href="/" class=" transition-all duration-200 hover:scale-110">
+                    <img class="h-10 w-auto"
+                         alt="Logo of the clinic"
+                         src="https://adigitsolutions.com/wp-content/uploads/2023/09/7-1024x1024.jpg" />
+                </a>
+            </div>
+            <div class="col-span-2 col-start-3 flex flex-row justify-around">
+                <div>
+                    <button class=" block h-10 w-16 cursor-pointer rounded-md bg-pink-300 transition-all duration-200 hover:scale-105 hover:bg-pink-400">
+                        Home
+                    </button>
+                </div>
+                <div>
+                    <button class=" block h-10 w-16 cursor-pointer rounded-md bg-pink-300 transition-all duration-200 hover:scale-105 hover:bg-pink-400">
+                        Home
+                    </button>
+                </div>
+                <div>
+                    <button class=" block h-10 w-16 cursor-pointer rounded-md bg-pink-300 transition-all duration-200 hover:scale-105 hover:bg-pink-400">
+                        Home
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <h1 class="flex justify-center bg-amber-100 p-3 text-2xl">
+            YOU ARE OFFLINE, YOU CANNOT ACCESS TO THE PUBLIC PAGE
+        </h1>
+    </header>
+    <main class="flex-1">
+        <h2 class="p-3 text-lg">You can view the index db content: </h2>
+        <section class="grid grid-cols-3 gap-4 sm:mx-0 md:mx-32 lg:mx-52">
+            <!--Idk how to implement that, i dont see the topic, if we choose cards, list, idk-->
+
+            <article class="grid-rows-3 rounded-lg bg-blue-400 p-3">
+                <div class="">
+                    <p>Name: Jhon</p>
+                    <p>Last name: Doe</p>
+                    <p>Situation: Cancer</p>
+                </div>
+
+            </article>
+            <article class="grid-rows-3 rounded-lg bg-blue-400 p-3">
+                <div class="">
+                    <p>Name: Jhon</p>
+                    <p>Last name: Doe</p>
+                    <p>Situation: Cancer</p>
+                </div>
+
+            </article>
+            <article class="grid-rows-3 rounded-lg bg-blue-400 p-3">
+                <div class="">
+                    <p>Name: Jhon</p>
+                    <p>Last name: Doe</p>
+                    <p>Situation: Death</p>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <footer class="w-full text-center">
+        <span>2026 Clinica azul</span>
+    </footer>
+    <script src="/offline/app.js"></script>
+</body>
+</html>
